@@ -638,7 +638,7 @@ h6 {
   overflow: hidden;
   background-color: var(--background-color);
   transition: all 0.6s ease-out;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -652,26 +652,26 @@ h6 {
   border-radius: 50%;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
   position: absolute;
-  left: 50%;
+  left: 40%;
 }
 
 #preloader div:nth-child(1) {
-  left: calc(50% + 8px);
+  left: calc(43% + 8px);
   animation: animate-preloader-1 0.6s infinite;
 }
 
 #preloader div:nth-child(2) {
-  left: calc(50% + 8px);
+  left: calc(43% + 8px);
   animation: animate-preloader-2 0.6s infinite;
 }
 
 #preloader div:nth-child(3) {
-  left: calc(50% + 32px);
+  left: calc(43% + 32px);
   animation: animate-preloader-2 0.6s infinite;
 }
 
 #preloader div:nth-child(4) {
-  left: calc(50% + 56px);
+  left: calc(43% + 56px);
   animation: animate-preloader-3 0.6s infinite;
 }
 
@@ -2416,6 +2416,7 @@ small {
 
   .cap2 {
     left: 5% !important;
+    right: 5% !important;
   }
 
   .cap2 h3 {
@@ -2524,7 +2525,7 @@ small {
 
   .section-title p .description-title {
     font-size: 1.5rem;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
   }
 
   .section {
