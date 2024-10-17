@@ -2443,6 +2443,7 @@ small {
 
   #products img {
     width: 100%;
+    max-width: 400px;
   }
 
   #team .card-body {
@@ -2450,7 +2451,7 @@ small {
   }
 
   #team .card2 h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 25px 0;
   }
 
