@@ -2443,7 +2443,11 @@ small {
 
   #products img {
     width: 100%;
-    max-width: 400px;
+    max-height: 350px;
+  }
+
+  .service-item img {
+    max-height: 350px;
   }
 
   #team .card-body {
