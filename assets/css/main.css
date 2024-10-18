@@ -2689,6 +2689,14 @@ small {
   }
 
   .hydrate-item h5 {
-    color: #6B6F6E !important;
+    color: #44444e !important;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #444444 !important;
 }
