@@ -1681,6 +1681,7 @@ p {
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   border-radius: 5px;
   overflow: hidden;
+  height: 65px;
 }
 
 .faq .faq-container .faq-item:last-child {
@@ -1735,9 +1736,10 @@ p {
 }
 
 .faq .faq-container .faq-active {
-  background-color: var(--accent-color);
+  background-color: transparent;
   border-color: var(--accent-color);
   color: var(--contrast-color);
+  height: auto;
 }
 
 .faq .faq-container .faq-active h3 {
@@ -2428,6 +2430,10 @@ small {
 
   .hide-mobile {
     display: none;
+  }
+
+  .show-on-mobile {
+    display: block !important;
   }
 
   .rerorder-1 {
